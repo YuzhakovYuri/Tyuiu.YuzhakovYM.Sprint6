@@ -189,7 +189,10 @@ namespace Tyuiu.YuzhakovYM.Sprint6.Task1.V21
             this.Controls.Add(this.buttonHelp_YYM);
             this.Controls.Add(this.groupBoxValues_YYM);
             this.Controls.Add(this.groupBoxCondition_YYM);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "FormMain";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Спринт 6 | Таск 1 | Вариант 21 | Южаков Ю. М.";
             this.groupBoxCondition_YYM.ResumeLayout(false);
             this.groupBoxCondition_YYM.PerformLayout();
