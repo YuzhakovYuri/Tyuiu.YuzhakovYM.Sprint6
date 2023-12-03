@@ -30,9 +30,9 @@ namespace Tyuiu.YuzhakovYM.Sprint6.Task2.V3
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.groupBoxCondition_YYM = new System.Windows.Forms.GroupBox();
             this.pictureBoxCondition_YYM = new System.Windows.Forms.PictureBox();
             this.labelCondition_YYM = new System.Windows.Forms.Label();
@@ -169,18 +169,18 @@ namespace Tyuiu.YuzhakovYM.Sprint6.Task2.V3
             // 
             // chartResult_YYM
             // 
-            chartArea3.Name = "ChartArea1";
-            this.chartResult_YYM.ChartAreas.Add(chartArea3);
-            legend3.Enabled = false;
-            legend3.Name = "Legend1";
-            this.chartResult_YYM.Legends.Add(legend3);
+            chartArea4.Name = "ChartArea1";
+            this.chartResult_YYM.ChartAreas.Add(chartArea4);
+            legend4.Enabled = false;
+            legend4.Name = "Legend1";
+            this.chartResult_YYM.Legends.Add(legend4);
             this.chartResult_YYM.Location = new System.Drawing.Point(135, 29);
             this.chartResult_YYM.Name = "chartResult_YYM";
-            series3.ChartArea = "ChartArea1";
-            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series3.Legend = "Legend1";
-            series3.Name = "Series1";
-            this.chartResult_YYM.Series.Add(series3);
+            series4.ChartArea = "ChartArea1";
+            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series4.Legend = "Legend1";
+            series4.Name = "Series1";
+            this.chartResult_YYM.Series.Add(series4);
             this.chartResult_YYM.Size = new System.Drawing.Size(344, 387);
             this.chartResult_YYM.TabIndex = 2;
             // 
@@ -234,6 +234,7 @@ namespace Tyuiu.YuzhakovYM.Sprint6.Task2.V3
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "FormMain";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Спринт 6 | Таск 2 | Вариант 3 | Южаков Ю. М.";
             this.groupBoxCondition_YYM.ResumeLayout(false);
             this.groupBoxCondition_YYM.PerformLayout();
