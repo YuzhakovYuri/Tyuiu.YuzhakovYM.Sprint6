@@ -85,7 +85,7 @@ namespace Tyuiu.YuzhakovYM.Sprint6.Task0.V18
             this.groupBoxData_YYM.Controls.Add(this.textBoxDataX_YYM);
             this.groupBoxData_YYM.Location = new System.Drawing.Point(12, 286);
             this.groupBoxData_YYM.Name = "groupBoxData_YYM";
-            this.groupBoxData_YYM.Size = new System.Drawing.Size(365, 113);
+            this.groupBoxData_YYM.Size = new System.Drawing.Size(397, 113);
             this.groupBoxData_YYM.TabIndex = 1;
             this.groupBoxData_YYM.TabStop = false;
             this.groupBoxData_YYM.Text = "Ввод данных";

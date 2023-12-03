@@ -35,6 +35,7 @@ namespace Tyuiu.YuzhakovYM.Sprint6.Task0.V18
         private void buttonInfo_YYM_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Таск 0, выполнил студент группы АСОиУб-23-3 | Южаков Юрий Михайлович", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Question);
+
         }
     }
 }
